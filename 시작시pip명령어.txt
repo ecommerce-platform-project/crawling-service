@@ -1,0 +1,5 @@
+# 내가 install한 리스트를 requirements.txt에 저장
+pip list --format=freeze > requirements.txt 
+
+# requirements.txt를 실행
+pip install -r requirements.txt
