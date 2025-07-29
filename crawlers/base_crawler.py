@@ -31,9 +31,9 @@ class BaseCrawler(ABC):
     
     def get_category_urls(self, category_name):
         choices = {
-            'news':'FINANCE_NEWS_URL',
-            'fashion': 'FASHION_URL',
-            'beauty':'BEAUTY_URL'
+            'dining':'DINING_URL',
+            'google': 'GOOGLE_URL',
+            'naver':'NAVER_URL'
         }
         env_name = choices[category_name]
         
